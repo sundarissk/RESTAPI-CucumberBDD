@@ -1,0 +1,20 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "skill_id": {
+      "type": "integer"
+    },
+    "skill_name": {
+      "type": "string"
+    },
+    "message_response": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "skill_id",
+    "skill_name",
+    "message_response"
+  ]
+}

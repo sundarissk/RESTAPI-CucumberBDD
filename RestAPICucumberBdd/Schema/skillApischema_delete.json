@@ -1,0 +1,16 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "message_response": {
+      "type": "string"
+    },
+    "Skill_Id": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "message_response",
+    "Skill_Id"
+  ]
+}
