@@ -1,0 +1,917 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2022-04-03T03:34:30.077Z",
+        "line": 3,
+        "name": "check whether can able to DELETE records",
+        "description": "",
+        "id": "validate-and-test-delete-request-in-userskill-mapping-api;check-whether-can-able-to-delete-records",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1999800,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User select DELETE Request with Exisitng ID",
+            "match": {
+              "location": "UserSkill_StepDefinition_Bdd.US_Delete_request.user_select_delete_request_with_exisitng_id()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1129200,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User send DELETE request",
+            "match": {
+              "location": "UserSkill_StepDefinition_Bdd.US_Delete_request.user_send_delete_request()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "It should display No Content with status Code",
+            "match": {
+              "location": "UserSkill_StepDefinition_Bdd.US_Delete_request.it_should_display_no_content_with_status_code()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-04-03T03:34:30.168Z",
+        "line": 8,
+        "name": "check whether can able to DELETE records",
+        "description": "",
+        "id": "validate-and-test-delete-request-in-userskill-mapping-api;check-whether-can-able-to-delete-records",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User select DELETE Request with Non Exsiitng ID",
+            "match": {
+              "location": "UserSkill_StepDefinition_Bdd.US_Delete_request.user_select_delete_request_with_non_exsiitng_id()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1296300,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User send DELETE request",
+            "match": {
+              "location": "UserSkill_StepDefinition_Bdd.US_Delete_request.user_send_delete_request()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1425500,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "It should display error message Record Not Found with status Code",
+            "match": {
+              "location": "UserSkill_StepDefinition_Bdd.US_Delete_request.it_should_display_error_message_record_not_found_with_status_code()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-04-03T03:34:30.180Z",
+        "line": 13,
+        "name": "check whether can able to DELETE records",
+        "description": "",
+        "id": "validate-and-test-delete-request-in-userskill-mapping-api;check-whether-can-able-to-delete-records",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 996700,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User select DELETE Request with Invalid Endpoints",
+            "match": {
+              "location": "UserSkill_StepDefinition_Bdd.US_Delete_request.user_select_delete_request_with_invalid_endpoints()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2002900,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User send DELETE request",
+            "match": {
+              "location": "UserSkill_StepDefinition_Bdd.US_Delete_request.user_send_delete_request()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2058000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "It should display error message incorrect Endpints with status Code",
+            "match": {
+              "location": "UserSkill_StepDefinition_Bdd.US_Delete_request.it_should_display_error_message_incorrect_endpints_with_status_code()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-04-03T03:34:30.193Z",
+        "line": 18,
+        "name": "check whether can able to DELETE records",
+        "description": "",
+        "id": "validate-and-test-delete-request-in-userskill-mapping-api;check-whether-can-able-to-delete-records",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 572100,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "User select DELETE Request when server is down",
+            "match": {
+              "location": "UserSkill_StepDefinition_Bdd.US_Delete_request.user_select_delete_request_when_server_is_down()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 398400,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "User send DELETE request",
+            "match": {
+              "location": "UserSkill_StepDefinition_Bdd.US_Delete_request.user_send_delete_request()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 500600,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "It should display display message Server Down with status Code",
+            "match": {
+              "location": "UserSkill_StepDefinition_Bdd.Us_Post_request.it_should_display_display_message_server_down_with_status_code()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Validate and Test DELETE Request in UserSkill Mapping API",
+    "description": "",
+    "id": "validate-and-test-delete-request-in-userskill-mapping-api",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/UserSkillFeature_bdd/US_Delete_Request.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2022-04-03T03:34:30.204Z",
+        "line": 3,
+        "name": "check whether can able to GET all the records",
+        "description": "",
+        "id": "validate-and-test-get-request-in-userskill-mapping-api;check-whether-can-able-to-get-all-the-records",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User select GET Request without Authorization",
+            "match": {
+              "location": "UserSkill_StepDefinition_Bdd.US_Get_request.user_select_get_request_without_authorization()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User send GET request",
+            "match": {
+              "location": "UserSkill_StepDefinition_Bdd.US_Get_request.user_send_get_request()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 995900,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "It should display an error message with status code",
+            "match": {
+              "location": "UserSkill_StepDefinition_Bdd.US_Get_request.it_should_display_an_error_message_with_status_code()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-04-03T03:34:30.212Z",
+        "line": 8,
+        "name": "check whether can able to GET all the records",
+        "description": "",
+        "id": "validate-and-test-get-request-in-userskill-mapping-api;check-whether-can-able-to-get-all-the-records",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User select GET Request with Valid Authorization and valid endpoints",
+            "match": {
+              "location": "UserSkill_StepDefinition_Bdd.US_Get_request.user_select_get_request_with_valid_authorization_and_valid_endpoints()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1025300,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User send GET request",
+            "match": {
+              "location": "UserSkill_StepDefinition_Bdd.US_Get_request.user_send_get_request()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "It should display details with status code",
+            "match": {
+              "location": "UserSkill_StepDefinition_Bdd.US_Get_request.it_should_display_details_with_status_code()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-04-03T03:34:30.221Z",
+        "line": 13,
+        "name": "check whether can able to GET all the records",
+        "description": "",
+        "id": "validate-and-test-get-request-in-userskill-mapping-api;check-whether-can-able-to-get-all-the-records",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 994600,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User select GET Request with Valid Authorization and Invalid endpoints",
+            "match": {
+              "location": "UserSkill_StepDefinition_Bdd.US_Get_request.user_select_get_request_with_valid_authorization_and_invalid_endpoints()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 999600,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User send GET request",
+            "match": {
+              "location": "UserSkill_StepDefinition_Bdd.US_Get_request.user_send_get_request()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1062800,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "It should display error message with status code",
+            "match": {
+              "location": "UserSkill_StepDefinition_Bdd.US_Get_request.it_should_display_error_message_with_status_code()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-04-03T03:34:30.228Z",
+        "line": 18,
+        "name": "check whether can able to GET all the records",
+        "description": "",
+        "id": "validate-and-test-get-request-in-userskill-mapping-api;check-whether-can-able-to-get-all-the-records",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1040600,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "User select GET Request with Valid Authorization with Invalid credential and valid endpoints",
+            "match": {
+              "location": "UserSkill_StepDefinition_Bdd.US_Get_request.user_select_get_request_with_valid_authorization_with_invalid_credential_and_valid_endpoints()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "User send GET request",
+            "match": {
+              "location": "UserSkill_StepDefinition_Bdd.US_Get_request.user_send_get_request()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1026000,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "It should display error message with status code",
+            "match": {
+              "location": "UserSkill_StepDefinition_Bdd.US_Get_request.it_should_display_error_message_with_status_code()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-04-03T03:34:30.234Z",
+        "line": 23,
+        "name": "check whether can able to GET records with existing UserID",
+        "description": "",
+        "id": "validate-and-test-get-request-in-userskill-mapping-api;check-whether-can-able-to-get-records-with-existing-userid",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "User select GET Request with Valid Authorization",
+            "match": {
+              "location": "UserSkill_StepDefinition_Bdd.US_Get_request.user_select_get_request_with_valid_authorization()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1002200,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "User send GET request",
+            "match": {
+              "location": "UserSkill_StepDefinition_Bdd.US_Get_request.user_send_get_request()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "It should display details with status code",
+            "match": {
+              "location": "UserSkill_StepDefinition_Bdd.US_Get_request.it_should_display_details_with_status_code()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-04-03T03:34:30.239Z",
+        "line": 28,
+        "name": "check whether can able to GET records with Nonexisting UserID",
+        "description": "",
+        "id": "validate-and-test-get-request-in-userskill-mapping-api;check-whether-can-able-to-get-records-with-nonexisting-userid",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "User select GET Request with Valid Authorization",
+            "match": {
+              "location": "UserSkill_StepDefinition_Bdd.US_Get_request.user_select_get_request_with_valid_authorization()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "User send GET request",
+            "match": {
+              "location": "UserSkill_StepDefinition_Bdd.US_Get_request.user_send_get_request()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "It should display error message with status code",
+            "match": {
+              "location": "UserSkill_StepDefinition_Bdd.US_Get_request.it_should_display_error_message_with_status_code()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-04-03T03:34:30.243Z",
+        "line": 33,
+        "name": "check whether can able to GET records without knowing Server is down",
+        "description": "",
+        "id": "validate-and-test-get-request-in-userskill-mapping-api;check-whether-can-able-to-get-records-without-knowing-server-is-down",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "User select GET Request with Valid Authorization Server Down",
+            "match": {
+              "location": "UserSkill_StepDefinition_Bdd.US_Get_request.user_select_get_request_with_valid_authorization_server_down()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "User send GET request",
+            "match": {
+              "location": "UserSkill_StepDefinition_Bdd.US_Get_request.user_send_get_request()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "It should display error message with status code",
+            "match": {
+              "location": "UserSkill_StepDefinition_Bdd.US_Get_request.it_should_display_error_message_with_status_code()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Validate and Test GET Request in UserSkill Mapping API",
+    "description": "",
+    "id": "validate-and-test-get-request-in-userskill-mapping-api",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/UserSkillFeature_bdd/US_Get_Request.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2022-04-03T03:34:30.250Z",
+        "line": 3,
+        "name": "check whether can able to create records Mapping",
+        "description": "",
+        "id": "validate-and-test-post-request-in-userskill-mapping-api;check-whether-can-able-to-create-records-mapping",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User select POST Request with Valid JASON",
+            "match": {
+              "location": "UserSkill_StepDefinition_Bdd.Us_Post_request.user_select_post_request_with_valid_jason()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User send POST request",
+            "match": {
+              "location": "UserSkill_StepDefinition_Bdd.Us_Post_request.user_send_post_request()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1009400,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "It should display created record with status Code",
+            "match": {
+              "location": "UserSkill_StepDefinition_Bdd.Us_Post_request.it_should_display_created_record_with_status_code()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-04-03T03:34:30.258Z",
+        "line": 8,
+        "name": "check whether can able to create records Mapping",
+        "description": "",
+        "id": "validate-and-test-post-request-in-userskill-mapping-api;check-whether-can-able-to-create-records-mapping",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 999100,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User select POST Request with Valid JASON and incorrect Endpoints",
+            "match": {
+              "location": "UserSkill_StepDefinition_Bdd.Us_Post_request.user_select_post_request_with_valid_jason_and_incorrect_endpoints()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 999800,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User send POST request",
+            "match": {
+              "location": "UserSkill_StepDefinition_Bdd.Us_Post_request.user_send_post_request()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "It should display error message incorrect endpoint with status Code",
+            "match": {
+              "location": "UserSkill_StepDefinition_Bdd.Us_Post_request.it_should_display_error_message_incorrect_endpoint_with_status_code()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-04-03T03:34:30.264Z",
+        "line": 13,
+        "name": "check whether can able to create records Mapping",
+        "description": "",
+        "id": "validate-and-test-post-request-in-userskill-mapping-api;check-whether-can-able-to-create-records-mapping",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1000100,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User select POST Request with Valid JASON and incorrect data",
+            "match": {
+              "location": "UserSkill_StepDefinition_Bdd.Us_Post_request.user_select_post_request_with_valid_jason_and_incorrect_data()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1000900,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User send POST request",
+            "match": {
+              "location": "UserSkill_StepDefinition_Bdd.Us_Post_request.user_send_post_request()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 998300,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "It should display display error message incorrect data with status Code",
+            "match": {
+              "location": "UserSkill_StepDefinition_Bdd.Us_Post_request.it_should_display_display_error_message_incorrect_data_with_status_code()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-04-03T03:34:30.274Z",
+        "line": 18,
+        "name": "check whether can able to create records Mapping",
+        "description": "",
+        "id": "validate-and-test-post-request-in-userskill-mapping-api;check-whether-can-able-to-create-records-mapping",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1002400,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "User select POST Request when server is down",
+            "match": {
+              "location": "UserSkill_StepDefinition_Bdd.Us_Post_request.user_select_post_request_when_server_is_down()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 997400,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "User send POST request",
+            "match": {
+              "location": "UserSkill_StepDefinition_Bdd.Us_Post_request.user_send_post_request()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1002600,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "It should display display message Server Down with status Code",
+            "match": {
+              "location": "UserSkill_StepDefinition_Bdd.Us_Post_request.it_should_display_display_message_server_down_with_status_code()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Validate and Test POST Request in UserSkill Mapping API",
+    "description": "",
+    "id": "validate-and-test-post-request-in-userskill-mapping-api",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/UserSkillFeature_bdd/US_Post_Request.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2022-04-03T03:34:30.281Z",
+        "line": 3,
+        "name": "check whether can able to Update records Mapping",
+        "description": "",
+        "id": "validate-and-test-put-request-in-userskill-mapping-api;check-whether-can-able-to-update-records-mapping",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User select PUT Request with Valid JSON Data",
+            "match": {
+              "location": "UserSkill_StepDefinition_Bdd.US_Put_request.user_select_put_request_with_valid_json_data()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 508600,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User send PUT request",
+            "match": {
+              "location": "UserSkill_StepDefinition_Bdd.US_Put_request.user_send_put_request()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 451900,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "It should display updated record details with status code",
+            "match": {
+              "location": "UserSkill_StepDefinition_Bdd.US_Put_request.it_should_display_updated_record_details_with_status_code()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-04-03T03:34:30.289Z",
+        "line": 8,
+        "name": "check whether can able to Update records Mapping",
+        "description": "",
+        "id": "validate-and-test-put-request-in-userskill-mapping-api;check-whether-can-able-to-update-records-mapping",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User select PUT Request with Incorrect Endpoints",
+            "match": {
+              "location": "UserSkill_StepDefinition_Bdd.US_Put_request.user_select_put_request_with_incorrect_endpoints()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User send PUT request",
+            "match": {
+              "location": "UserSkill_StepDefinition_Bdd.US_Put_request.user_send_put_request()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "It should display error message Incorrect Endpoints with status code",
+            "match": {
+              "location": "UserSkill_StepDefinition_Bdd.US_Put_request.it_should_display_error_message_incorrect_endpoints_with_status_code()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-04-03T03:34:30.297Z",
+        "line": 13,
+        "name": "check whether can able to Update records Mapping",
+        "description": "",
+        "id": "validate-and-test-put-request-in-userskill-mapping-api;check-whether-can-able-to-update-records-mapping",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 645900,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User select PUT Request with Incorrect JSON Data",
+            "match": {
+              "location": "UserSkill_StepDefinition_Bdd.US_Put_request.user_select_put_request_with_incorrect_json_data()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2001600,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User send PUT request",
+            "match": {
+              "location": "UserSkill_StepDefinition_Bdd.US_Put_request.user_send_put_request()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "It should display error message Incorrect JSON Data with status code",
+            "match": {
+              "location": "UserSkill_StepDefinition_Bdd.US_Put_request.it_should_display_error_message_incorrect_json_data_with_status_code()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-04-03T03:34:30.308Z",
+        "line": 18,
+        "name": "check whether can able to Update records Mapping",
+        "description": "",
+        "id": "validate-and-test-put-request-in-userskill-mapping-api;check-whether-can-able-to-update-records-mapping",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 905100,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "User select PUT Request when server is down",
+            "match": {
+              "location": "UserSkill_StepDefinition_Bdd.US_Put_request.user_select_put_request_when_server_is_down()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "User send PUT request",
+            "match": {
+              "location": "UserSkill_StepDefinition_Bdd.US_Put_request.user_send_put_request()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 501900,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "It should display message Server Down with status Code",
+            "match": {
+              "location": "UserSkill_StepDefinition_Bdd.US_Put_request.it_should_display_message_server_down_with_status_code()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Validate and Test PUT Request in UserSkill Mapping API",
+    "description": "",
+    "id": "validate-and-test-put-request-in-userskill-mapping-api",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/UserSkillFeature_bdd/US_Put_Request.feature",
+    "tags": []
+  }
+]

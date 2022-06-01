@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="19" time="0.524">
+    <testcase classname="Validate and Test DELETE Request in UserSkill Mapping API" name="check whether can able to DELETE records" time="0.08">
+        <system-out><![CDATA[Given User select DELETE Request with Exisitng ID...........................passed
+When User send DELETE request...............................................passed
+Then It should display No Content with status Code..........................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Validate and Test DELETE Request in UserSkill Mapping API" name="check whether can able to DELETE records 2" time="0.006">
+        <system-out><![CDATA[Given User select DELETE Request with Non Exsiitng ID.......................passed
+When User send DELETE request...............................................passed
+Then It should display error message Record Not Found with status Code......passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Validate and Test DELETE Request in UserSkill Mapping API" name="check whether can able to DELETE records 3" time="0.007">
+        <system-out><![CDATA[Given User select DELETE Request with Invalid Endpoints.....................passed
+When User send DELETE request...............................................passed
+Then It should display error message incorrect Endpints with status Code....passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Validate and Test DELETE Request in UserSkill Mapping API" name="check whether can able to DELETE records 4" time="0.004">
+        <system-out><![CDATA[Given User select DELETE Request when server is down........................passed
+When User send DELETE request...............................................passed
+Then It should display display message Server Down with status Code.........passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Validate and Test GET Request in UserSkill Mapping API" name="check whether can able to GET all the records" time="0.005">
+        <system-out><![CDATA[Given User select GET Request without Authorization.........................passed
+When User send GET request..................................................passed
+Then It should display an error message with status code....................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Validate and Test GET Request in UserSkill Mapping API" name="check whether can able to GET all the records 2" time="0.003">
+        <system-out><![CDATA[Given User select GET Request with Valid Authorization and valid endpoints..passed
+When User send GET request..................................................passed
+Then It should display details with status code.............................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Validate and Test GET Request in UserSkill Mapping API" name="check whether can able to GET all the records 3" time="0.004">
+        <system-out><![CDATA[Given User select GET Request with Valid Authorization and Invalid endpoints.passed
+When User send GET request..................................................passed
+Then It should display error message with status code.......................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Validate and Test GET Request in UserSkill Mapping API" name="check whether can able to GET all the records 4" time="0.003">
+        <system-out><![CDATA[Given User select GET Request with Valid Authorization with Invalid credential and valid endpoints.passed
+When User send GET request..................................................passed
+Then It should display error message with status code.......................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Validate and Test GET Request in UserSkill Mapping API" name="check whether can able to GET records with existing UserID" time="0.002">
+        <system-out><![CDATA[Given User select GET Request with Valid Authorization......................passed
+When User send GET request..................................................passed
+Then It should display details with status code.............................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Validate and Test GET Request in UserSkill Mapping API" name="check whether can able to GET records with Nonexisting UserID" time="0.001">
+        <system-out><![CDATA[Given User select GET Request with Valid Authorization......................passed
+When User send GET request..................................................passed
+Then It should display error message with status code.......................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Validate and Test GET Request in UserSkill Mapping API" name="check whether can able to GET records without knowing Server is down" time="0.002">
+        <system-out><![CDATA[Given User select GET Request with Valid Authorization Server Down..........passed
+When User send GET request..................................................passed
+Then It should display error message with status code.......................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Validate and Test POST Request in UserSkill Mapping API" name="check whether can able to create records Mapping" time="0.004">
+        <system-out><![CDATA[Given User select POST Request with Valid JASON.............................passed
+When User send POST request.................................................passed
+Then It should display created record with status Code......................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Validate and Test POST Request in UserSkill Mapping API" name="check whether can able to create records Mapping 2" time="0.001">
+        <system-out><![CDATA[Given User select POST Request with Valid JASON and incorrect Endpoints.....passed
+When User send POST request.................................................passed
+Then It should display error message incorrect endpoint with status Code....passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Validate and Test POST Request in UserSkill Mapping API" name="check whether can able to create records Mapping 3" time="0.005">
+        <system-out><![CDATA[Given User select POST Request with Valid JASON and incorrect data..........passed
+When User send POST request.................................................passed
+Then It should display display error message incorrect data with status Code.passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Validate and Test POST Request in UserSkill Mapping API" name="check whether can able to create records Mapping 4" time="0.003">
+        <system-out><![CDATA[Given User select POST Request when server is down..........................passed
+When User send POST request.................................................passed
+Then It should display display message Server Down with status Code.........passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Validate and Test PUT Request in UserSkill Mapping API" name="check whether can able to Update records Mapping" time="0.005">
+        <system-out><![CDATA[Given User select PUT Request with Valid JSON Data..........................passed
+When User send PUT request..................................................passed
+Then It should display updated record details with status code..............passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Validate and Test PUT Request in UserSkill Mapping API" name="check whether can able to Update records Mapping 2" time="0.002">
+        <system-out><![CDATA[Given User select PUT Request with Incorrect Endpoints......................passed
+When User send PUT request..................................................passed
+Then It should display error message Incorrect Endpoints with status code...passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Validate and Test PUT Request in UserSkill Mapping API" name="check whether can able to Update records Mapping 3" time="0.006">
+        <system-out><![CDATA[Given User select PUT Request with Incorrect JSON Data......................passed
+When User send PUT request..................................................passed
+Then It should display error message Incorrect JSON Data with status code...passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Validate and Test PUT Request in UserSkill Mapping API" name="check whether can able to Update records Mapping 4" time="0.004">
+        <system-out><![CDATA[Given User select PUT Request when server is down...........................passed
+When User send PUT request..................................................passed
+Then It should display message Server Down with status Code.................passed
+]]></system-out>
+    </testcase>
+</testsuite>
